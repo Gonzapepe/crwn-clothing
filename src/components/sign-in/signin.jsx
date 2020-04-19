@@ -42,8 +42,10 @@ render(){
 
                 <FormInput handleChange={this.handleChange} name='password' type='password' value={this.state.password} label='password' required />
 
+                <div className='buttons'>
                 <CustomButton type='submit'> INICIAR SESIÓN </CustomButton>
-                <CustomButton onClick={signInWithGoogle}> INICIAR SESIÓN CON GOOGLE </CustomButton>
+                <CustomButton onClick={signInWithGoogle} isGoogleSignIn > INICIAR SESIÓN CON GOOGLE </CustomButton>
+                </div>
             </form>
         </div>
     )
