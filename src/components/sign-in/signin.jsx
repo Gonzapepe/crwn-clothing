@@ -20,9 +20,10 @@ class SignIn extends Component {
 handleSubmit = async event => {
     event.preventDefault()
         
+    const { email, password } = this.state
     try {
         
-        const { email, password } = this.state
+        
 
         await auth.createUserWithEmailAndPassword(email, password)
         
