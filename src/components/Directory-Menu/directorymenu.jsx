@@ -8,32 +8,32 @@ class DirectoryMenu extends Component {
         this.state = {
             sections: [
             {
-              title: 'gorros',
+              title: 'hats',
               imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
               id: 1,
               linkUrl: 'shop/hats'
             },
             {
-              title: 'abrigos',
+              title: 'jackets',
               imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
               id: 2,
               linkUrl: 'shop/jackets'
             },
             {
-              title: 'calzados',
+              title: 'shoes',
               imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
               id: 3,
               linkUrl: 'shop/sneakers'
             },
             {
-              title: 'mujeres',
+              title: 'women',
               imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
               size: 'large',
               id: 4,
               linkUrl: 'shop/womens'
             },
             {
-              title: 'hombres',
+              title: 'men',
               imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
               size: 'large',
               id: 5,
